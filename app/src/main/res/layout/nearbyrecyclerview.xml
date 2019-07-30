@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_gravity="center_horizontal"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/placeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:padding="5dp"
+        android:fontFamily="@font/roboto_light"
+        android:drawablePadding="5dp"
+        />
+        <TextView
+            android:id="@+id/placeOpen"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/colorNearByPrimaryDark"
+            android:textSize="17sp"
+            android:padding="5dp"
+            android:fontFamily="@font/roboto_light"
+            />
+        <TextView
+            android:id="@+id/placeRating"
+            android:drawableLeft="@drawable/ic_star_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/colorNearByPrimaryDark"
+            android:textSize="17sp"
+            android:padding="5dp"
+            android:fontFamily="@font/roboto_light"
+            />
+        <TextView
+            android:id="@+id/placeAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/colorNearByPrimaryDark"
+            android:textSize="17sp"
+            android:drawableLeft="@drawable/ic_home_black_24dp"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:fontFamily="@font/roboto_light"
+            />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+</android.support.v7.widget.CardView>

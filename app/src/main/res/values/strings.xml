@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TourMate</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="weatherApiKey">b6907d289e10d714a6e88b30761fae22</string>
+    <string name="apiKey">AIzaSyCZzt6TOKnUQTfeA16viP6hKLLV0VRUiKc</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
